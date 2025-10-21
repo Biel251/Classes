@@ -1,3 +1,4 @@
+//Atividade 3 Carro
 class Carro {
   constructor(modelo) {
     this.modelo = modelo;
@@ -21,10 +22,11 @@ class Carro {
   }
 }
 
-// Exemplo de uso
+
 const carro1 = new Carro("Fusca");
 carro1.acelerar();
 carro1.acelerar();
 carro1.mostrarVelocidade();
 carro1.frear();
 carro1.mostrarVelocidade();
+
